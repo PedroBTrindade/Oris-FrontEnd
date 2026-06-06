@@ -101,7 +101,7 @@ export default function Cadastro() {
           </button>
 
           <div className="cadastro-logo">
-            <img src="/public/Logo.png" alt="ORIS" />
+            <img src="/public/logo.png" alt="ORIS" />
           </div>
 
           <h1 className="cadastro-titulo">Criar conta</h1>
