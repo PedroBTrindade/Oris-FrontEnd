@@ -67,7 +67,7 @@ export default function Login() {
         {/* Logo e identidade */}
         <div className="login-logo">
           <div className="login-estrela">
-            <img src="/public/Logo.png" alt="ORIS" />
+            <img src="/public/logo.png" alt="ORIS" />
           </div>
           <h1 className="login-titulo">ORIS</h1>
           <p className="login-subtitulo">Expresse suas emoções</p>
