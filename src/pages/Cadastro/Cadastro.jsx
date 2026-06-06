@@ -123,7 +123,7 @@ export default function Cadastro() {
               <input
                 type="text"
                 value={username}
-                onChange={(e) => setUsername(e.target.value.toLowerCase())}
+                onChange={(e) => setUsername(e.target.value)}
                 placeholder="seunome"
                 className={`cadastro-input ${erros.username ? 'cadastro-input--erro' : ''}`}
                 required
