@@ -11,7 +11,7 @@
  *  - adminAPI:   painel administrativo
  */
 
-const BASE_URL = 'http://localhost:8080/api';
+const BASE_URL = 'https://oris-backend.onrender.com';
 
 // Helper: faz a requisição e trata erros padronizados
 async function request(url, options = {}) {
