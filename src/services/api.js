@@ -11,7 +11,7 @@
  *  - adminAPI:   painel administrativo
  */
 
-const BASE_URL = 'https://oris-backend.onrender.com';
+const BASE_URL = 'https://oris-backend.onrender.com/api';
 
 // Helper: faz a requisição e trata erros padronizados
 async function request(url, options = {}) {
