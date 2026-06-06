@@ -26,7 +26,7 @@ export default function Cadastro() {
   const [mostrarConfirmacao, setMostrarConfirmacao] = useState(false);
 
   // Valida senha: mínimo 8 chars com ao menos uma letra
-  const senhaValida = (s) => /^(?=.*[a-zA-Z]).{8,}$/.test(s);
+  const senhaValida = (s) => /^(?=.*[a-zA-Z])\S{8,}$/.test(s);
 
   const handleCadastro = async (e) => {
     e.preventDefault();
